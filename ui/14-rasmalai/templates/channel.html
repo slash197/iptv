@@ -1,0 +1,55 @@
+<div class="tv full">
+		
+	<div id="player" />
+	<div class="player-holder" data-fn="selectPopup" data-nav="false" />
+	
+	<div class="channel-list movement-transition">
+		<div class="cat-holder">
+			<div class="categories vertical fire-event" data-fn="selectChannel" data-fn-select="loadChannels" />
+		</div>
+		<div class="qwert">
+			<div class="chl" data-fn="init" data-page="Channel" />
+		</div>
+	</div>
+
+	<div class="info">
+		<div class="panel panel-middle movement-transition">
+			<div class="progress"><div class="bar" /></div>
+			<div class="channel">
+				<div class="logo">
+					<span class="number" />
+					<img />
+				</div>
+				<div class="data">
+					<div class="title" />
+					<div class="description" />
+				</div>
+				<div class="time">
+					<div class="hours" />
+					<div class="current-time" />
+					<div class="elapsed" />
+				</div>
+			</div>
+			<div class="controls">
+				<div class="record">
+					<span class="circle red" /> Record Channel
+				</div>
+				<div class="favorites">
+					<span class="circle green" /> <span class="text" />
+				</div>
+				<div class="report">
+					<span class="circle blue" /> Report a Problem
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="ads-overlay animate-movement-horizontal" />
+
+	<div class="ads-ticker animate-movement-vertical" />
+
+	<div class="ads-timer"><span data-token="Sponsored Advertisement" /><span class="timer" /></div>
+	
+	<div class="recording blinking"><span class="circle red" /> <span data-token="recording" /></div>
+	
+</div>

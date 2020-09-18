@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GWare IPTV</title>
+		<meta charset="UTF-8">
+		<link rel="icon" type="iamge/x-icon" href="artwork/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="css/app.css" />
+       <link rel="stylesheet" type="text/css" href="css/icons.css" />
+        <link rel="stylesheet" type="text/css" href="css/animation.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100">
+	</head>
+	<body>
+		
+		<div class="ui"></div>
+			
+		<div class="preloader">
+			<div class="spinner-holder">
+				<span class="text">Loading</span>
+				<div class="loader"><span></span></div>
+			</div>
+		</div>
+		
+		<div class="player-hint"></div>
+		
+		<div class="screen-saver color-transition">
+			<div class="dimmer"></div>
+			<div class="time"></div>
+			<div class="date"></div>
+		</div>
+
+		<div class="dropup movement-transition na">
+			<div class="dropup-content"></div>
+		</div>
+		
+		<div class="search-panel movement-transition na">
+			<div class="search-zone-input" data-nav="false"></div>
+			<div class="search-zone-button" data-nav="false"></div>
+			<div class="divider"></div>
+			<div class="search-results"></div>
+		</div>
+		
+		<div class="hover-menu hover-menu-disabled na">
+			<button class="btn btn-back"><span class="ico ico-arrow-back"></span><span data-token="Back"></span></button>
+			<button class="btn btn-channels"><span class="ico ico-list"></span><span data-token="Channel list"></span></button>
+			<button class="btn btn-channel-up"><span class="ico ico-keyboard-arrow-up"></span><span data-token="Channel up"></span></button>
+			<button class="btn btn-channel-down"><span class="ico ico-keyboard-arrow-down"></span><span data-token="Channel down"></span></button>
+			<button class="btn btn-share"><span class="ico ico-share"></span><span data-token="Share"></span></button>
+			<button class="btn" is="google-cast-button"></button>
+			<button class="btn btn-fullscreen"><span class="ico ico-fullscreen"></span><span data-token="Full screen"></span></button>
+		</div>
+		
+		<div class="mini-guide">
+			<div class="guide-content">
+				<div class="row-fluid guide-header">
+					<div class="span9 date"></div>
+					<div class="span3 text-right"><img class="icon" /></div>
+				</div>
+				<div class="title"></div>
+				<div class="time"></div>
+				<div class="description"></div>
+				<div class="programme-control">
+					<div class="programme-control-btns btn-container" data-nav="false"></div>
+				</div>
+			</div>
+			<div class="guide-control">
+				<div class="guide-control-btns btn-container" data-nav="false"></div>
+			</div>
+		</div>
+		
+		<div class="warning"><div class="zone"></div></div>
+		
+		<div class="overlay-stand-by"><p></p></div>
+		
+		<div id="log"></div>
+	
+		<div class="key-input"></div>
+		
+		<object id="DuneHD" type="application/x-dune-stb-api"></object>
+		<embed id="THD504" name="mediaPlayer" type="application/mozilla-npsample-scriptable-plugin" />
+
+		<script src="js/thirdparty/jquery.min.js"></script>
+		<script src="js/GWare.loader.js"></script>
+	</body>
+</html>

@@ -1,0 +1,61 @@
+<div class="tv full">
+		
+	<div id="player" />
+	<div class="player-holder" data-fn="selectPopup" />
+	
+	<div class="channel-list movement-transition">
+		<div class="cat-holder nav">
+			<div class="prev"><div class="arrow-left" /></div>
+			<div class="categories" data-fn-select="loadChannels" data-fn="loadChannels" />
+			<div class="next"><div class="arrow-right" /></div>
+		</div>
+		<div class="qwert nav">
+			<div class="prev"><div class="arrow-left" /></div>
+			<div class="chl" data-fn="init" data-page="Channel" />
+			<div class="next"><div class="arrow-right" /></div>
+		</div>
+	</div>
+
+	<div class="info">
+		<div class="panel panel-middle movement-transition">
+			
+			<div class="logo">
+				<div class="logo-title-holder">
+					<img />							
+					<span class="number" />
+					<span class="title" />
+				</div>
+		
+				<div class="description" />
+					
+				<div class="time-holder">
+						<span class="time" />	
+						<span class="current-time" />
+						<span class="elapsed" />		
+				</div>
+
+				<div class="controls">
+						<span class="favorites">
+							<span class="circle green" />
+							<span class="text" />
+						</span>
+						<span class="report">
+							<span class="circle blue" /> Report a Problem
+						</span>
+				</div>
+			</div> <!-- end .logo -->
+
+			<div class="progress"><div class="bar" /></div>
+			
+		</div>
+	</div>
+	
+	<div class="ads-overlay animate-movement-horizontal" />
+
+	<div class="ads-ticker animate-movement-vertical" />
+
+	<div class="ads-timer"><span data-token="Sponsored Advertisement" /><span class="timer" /></div>
+	
+	<div class="recording blinking"><span class="circle red" /> <span data-token="recording" /></div>
+	
+</div>
