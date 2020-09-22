@@ -76,7 +76,6 @@ var
 		};
 	},
 
-
 	GWareLogin = function(callback){
 		this.debug = true;
 

@@ -8,26 +8,26 @@ var GWareConfig = {
 	 * User interface to load in development mode
 	 */
 	UI: '1-burfi',
-	
+
 	/*
 	 * live or dev
 	 */
 	//mode: 'live',
 	mode: 'live',
 
-	
+
 	/*
 	 * Enable/disable debugging logs, either on-screen overlay, browser
 	 * console or sent to a server
 	 */
 	debug: {
-		report:false, //report logs
-		
+		report: false, //report logs
+
 		console: true,
-		
-		cloud: true, //cloud storage all logs 
-		server: false, //not active 
-		screen: false, //nouse 
+
+		cloud: true, //cloud storage all logs
+		server: false, //not active
+		screen: false, //nouse
 		api: {
 			enabled: false,
 			timeout: 60,
@@ -51,12 +51,12 @@ var GWareConfig = {
 	 * if enabled files will be cached by browser after the first load
 	 */
 	cacheSourceFiles: false,
-	
+
 	/*
 	 * Number of items to render in a zone
 	 */
 	zoneItemCount: 10,
-	
+
 	/*
 	 * Image resource aspect ratio deinifitions
 	 */
@@ -112,9 +112,9 @@ var GWareConfig = {
 		 */
 		accessToken:			'/api/user/?CI=',
 		//accessToken:			'//authorize.akamaized.net/login.php?CID=',
-		
+
 		//accessToken:			'//localhost:8888/gomiddleware/server/authorize/login.php?CID=',
-		
+
 		/*
 		 * Cloud CDN API Login
 		 */
@@ -125,7 +125,7 @@ var GWareConfig = {
 		 * Cloud CDN API Jsons
 		 */		//localhost:8888/gomiddleware/server/another_server_for_json2_file/
 		 jsons: 					'//cdn.3iptvbox.com/gomiddleware/json',
-		 
+
 		 epg_jsons: 					'//cdn.3iptvbox.com/gomiddleware/epg/',
 		//jsons: 					'//Xcloudtv03.akamaized.net/',
 
@@ -133,23 +133,23 @@ var GWareConfig = {
 		 * DRM license key
 		 */
 		drm:					'//Xcloudtv.akamaized.net/[client]/licenses/[cms]/[id].txt',
-		
+
 		/*
 		 * YouTube API
 		 */
 		youtube:				'[API]youtube/getvideo.php',
-		
+
 		/*
 		 * Advertising API
 		 */
 		ads:					'[API]advertisement/',
-		
+
 		/*
 		 * Device API endpoint
 		 */
 		//device:					'[API]Device/',
 		device:					'[API]devices/',
-		
+
 		/*
 		 * Old reports sent to API
 		 */
@@ -166,7 +166,7 @@ var GWareConfig = {
 		 */
 		//nodeBQ:					'//XGWarebigquery.appspot.com/',
 		nodeBQ:					'[API]',
-		
+
 		/*
 		 * Maximum device connections API
 		 */
@@ -211,7 +211,7 @@ var GWareConfig = {
 			{ id: 20,	name: 'androidtv',		stb: 'androidtv',			type: '_AndroidTV',				label: 'AndroidTV',			icon: 'settopbox',			hwAccelerated: true,	ua: 'xxxxxxxxxx',			category: 'mediaplayer',	canRecord: true,		player: false,	hasEPG: true,	hasApps: true,	nativeKeyboard: false,	hasEPGPreview: true  }
 		]
 	},
-	
+
 	/*
 	 * UI page source file paths
 	 */
@@ -258,7 +258,7 @@ var GWareConfig = {
 		'Search': 'misc/search.js',
         'Offline': 'misc/offline.js'
 	},
-	
+
 	/*
 	 * Country names and ISO codes
 	 */
@@ -507,7 +507,7 @@ var GWareConfig = {
 		{'name': 'Zambia', 'code': 'ZM'},
 		{'name': 'Zimbabwe', 'code': 'ZW'}
 	],
-	
+
 	languageCodes: {
 		'aar': {'int':['Afar'],'native':['Afaraf']},
 		'aa': {'int':['Afar'],'native':['Afaraf']},
