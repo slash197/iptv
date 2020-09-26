@@ -1,0 +1,1 @@
+'use strict';(function(){var c=$xirsys.class.create({namespace:'model',inherits:$xirsys.databind,constructor:function(a,b){c.Super.init.call(this,a,b);this.id=a},fields:{attrs:{}},methods:{set:function(a,b){this.attrs[a]=b;$xirsys.events.getInstance().emit(this.id+":change",a,b,this)},get:function(a){return this.attrs[a]}}})})();

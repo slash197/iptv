@@ -1,0 +1,44 @@
+POST /api/login
+
+@params [string] username
+@params [string] password
+@response json
+
+{
+    "status": true,                                 // true or false
+    "message": "Auth successful",                   // status message
+    "token": "[token hash]"                         // token generated for user which will be used in other api calls for validation, should contain user id to identify user
+}
+
+POST /api/service
+
+@params [string] token
+@response json
+
+{
+    "system": {
+        "language": "english",
+        "user-interface": "akua"
+    },
+    "subscription": {
+        "expires": "YYYY-MM-DD HH:mm:ss"
+    },
+    "services": {
+        "movies": [...],
+        "series": [...],
+        "channels": [...],
+        "music": [...],
+        "epg": [...]
+    },
+    "menu": [
+        {
+            "name": "Home",
+            "default": true,
+            "status": true,
+            "position": 1
+        },
+        ...
+    ],
+    "news": [...],
+    "ads": [...]
+}

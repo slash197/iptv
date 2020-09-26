@@ -1,0 +1,10 @@
+
+{
+    "name": "GWareUI",
+    "version": "2.00.00",
+    "description": "Gware web iptv",
+    "main": "index.html",
+    "scripts": {
+        "release": "release-it"
+    }
+}

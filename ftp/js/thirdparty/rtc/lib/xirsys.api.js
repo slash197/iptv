@@ -1,0 +1,1 @@
+'use strict';(function(){$xirsys.class.create({namespace:'api',constructor:function(b,a){if(!!a){$xirsys.api.iceUrl=a+"ice"}this.data=b},fields:{ice:null},methods:{getIceServers:function(a){var c=this;$xirsys.ajax.do({url:$xirsys.api.iceUrl,method:'POST',data:c.xirsys_opts}).done(function(b){c.ice=b.d;a.apply(this,[c.ice])})}},statics:{iceUrl:$xirsys.baseUrl+"ice"}})})();

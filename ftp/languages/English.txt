@@ -1,0 +1,238 @@
+Home
+Television
+TV Guide
+Movies
+Series
+Music
+Youtube
+Settings
+Logout
+<br />Already have an account?
+Try our services for free,<br />sign up here for a trial account now!
+Sign in
+Forgot password
+Cancel
+Sign up
+Receive SMS
+Receive email
+Back
+Please fill in one of the fields below
+OK
+Please fill in a valid email address
+Please fill in all fields
+Please fill in at least one field to recover your login details
+Unknown error occured, please try again later
+Thank you. You will receive your login details shortly.
+Unable to connect to server, please try again later.
+Invalid user ID or password
+Access denied, please contact support.
+Unable to log in, please try again later.
+Your subscription has expired
+Unable to log in, please try again later
+This product is not available for your device type
+Loading
+Channel list
+Channel up
+Channel down
+Share
+Full screen
+Default audio track
+No subtitles
+Adjust font size to fit your device
+For the best experience we recommend using Chrome or Firefox
+Download Chrome
+Download Firefox
+Are you sure?
+Logout
+You have not authorized this app to post to Facebook yet.<br />Would you like to start the process?
+Authorize
+Facebook message: 
+Message
+Post
+Channels
+Movies
+Seasons
+Albums
+credits
+Insufficient credits, please contact support.
+Validating your purchase, please wait..
+You do not have access to this content, if you feel this is an error contact support.
+Your request is not approved if you feel this is an error contact support
+An unknown error occurred, please try again later or contact support
+Balance
+Processing your request, please wait..
+Your recording has been scheduled successfully
+Recording could not be initiated
+You do not have permission to Record this program
+Undefined error occurred, contact support
+Watch
+You can not use this service outside of your network
+You reached the maximum concurrent devices allowed. Please sign out before using a new device.
+Failed to run download test, please try again later.
+Failed to run ping test, please try again later.
+All channels
+Favorites
+About
+Languages
+CatchUp TV
+Screen saver
+Speed test
+Support
+General
+Subscription
+Expires
+User ID
+MAC Address
+IP Address
+Network speed
+Network latency
+Version
+Website
+Clock
+Child lock
+TV guide layout
+Stream quality
+Save recordings
+Player screen hint
+Font size
+PIN code
+Device label
+Off
+TV
+Series
+No information available
+Sponsored Advertisement
+Choose audio track
+Choose subtitle
+Invalid PIN code entered
+Your subscription is about to expire
+Rent
+Search
+Go
+No results found
+Clear recording
+Set recording
+Clear reminder
+Set reminder
+Would you like to remove this reminder?
+Delete
+Would you like to remove this scheduled recording?
+What would you like to do?
+Record this programme
+Remind me later
+Where would you like to save it?
+Local
+Cloud
+Sleep mode will start shortly
+Report sent, thank you!
+Report a problem
+No audio
+No video
+Both
+Unable to connect to Facebook, please try again later.
+Continue
+Yes
+No
+Installed
+There are no apps
+Press OK to open this app
+There are no installed apps
+Press OK to install this app
+There are no apps in this category
+Open
+Would you like to install this app?
+Install
+TV channels
+Music albums
+New user
+Skip
+Kids
+Social Share
+Stream is not available at this moment
+There are no albums
+There are no albums in this category
+Play commercial
+Request more information
+Back to menu
+Request sent, thank you!
+There are no series
+There are no episodes in this serie
+This series is not available at the moment, please contact support.
+Choose movie language
+Would you like to resume where you left off?
+Are you sure you want to stop this serie?
+Continue watching this series on
+Could not find connected devices
+Continue watching this movie on
+There are no series stores
+Please enter a valid, four digit PIN code
+Retry
+Please enter a valid device label
+Stop test
+Start test
+Switch to live stream?
+Resume Paused TV
+Continue Live TV
+Quit TV
+There are no favorite channels
+There are no channels in this category
+Please select at least one channel
+There are no recordings
+Play
+Deleting this recording, please wait...
+Are you sure you want to stop this recording?
+Channel not available
+Choose stream quality
+High
+Low
+Audio
+Subtitles
+Continue watching this channel on
+Your device cannot record video
+This category is empty
+Previous
+Watch Trailer
+Watch Movie
+Next
+There are no movie stores
+This VOD store is empty
+Are you sure you want to stop this movie?
+recording
+-24 hrs
++24 hrs
+Language
+Duration
+Year
+Actors
+Tags
+Information about your device and system
+Catchup TV settings
+Select your Catchup TV offset preferences
+Current setting
+General settings
+Select your preference for each item
+Language settings
+Select your language preference
+Screen saver settings
+Select your screen saver preferences
+Measure your connection speed
+Download speed
+Higher is better
+Latency
+Lower is better
+Press OK to start this channel
+Select user
+Connect your Facebook account to create a new user for personalized settings or skip this step
+Watchlist
+Record channel
+-24 hours
++24 hours
+Continue watching
+Menu
+Director
+Producer
+
+Today
+Description
+Staring
+Directed by

@@ -1,0 +1,411 @@
+html {
+	height: 100%;
+	background-color: #000000;
+	overflow: hidden;
+	font-family: 'Roboto';
+}
+
+	body {
+		padding: 0px;
+		margin: 0px;
+		height: 100%;
+		background-color: #000000;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+		font-size: 20px;
+		font-weight: 300;
+		color: #ffffff;
+		white-space: nowrap;
+		position: relative;
+		cursor: default;
+		overflow: hidden;
+	}
+
+		.main {
+			display: inline-block;
+			height: 100%;
+			width: 100%;
+			opacity: 0;
+		}
+
+		.preloader {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+		}
+			.loader-zone.hot-zone {
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+				width: 76px;
+				height: 54px;
+			}
+				.loader-zone .btn-container {
+					background-color: transparent;
+				}
+					.loader-zone .btn {
+						background-color: transparent;
+						border: none;
+					}
+
+#domain {
+	font-size: 12px;
+	color: #a0a0a0;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+#domain .ico {
+	margin-right: 10px;
+}
+#platform {
+	font-size: 12px;
+	color: #a0a0a0;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+/************ hot zones and selection ************/
+.hot-zone {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+	.hot-zone .scroller {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	.hot-zone .scroller {
+	}
+		.hot-zone .scroller .row {
+			height: auto;
+			width: auto;
+			position: relative;
+		}
+		.hot-zone[data-type="horizontal"] .scroller .row {
+			height: 100%;
+			width: auto;
+		}
+		.hot-zone[data-type="vertical"] .scroller .row {
+			height: auto;
+			width: 100%;
+		}
+			.hot-zone .scroller .row .item {
+				display: inline-block;
+				vertical-align: top;
+				overflow: hidden;
+				position: relative;
+				z-index: 1;
+				transition: color 0.2s linear;
+			}
+			.mobile .hot-zone .scroller .row .item {
+				cursor: pointer;
+			}
+			.hot-zone[data-type="grid"] .scroller .row .item,
+			.hot-zone[data-type="horizontal"] .scroller .row .item {
+				height: 100%;
+				width: auto;
+			}
+			.hot-zone[data-type="vertical"] .scroller .row .item {
+				height: 100%;
+				width: 100%;
+			}
+				.hot-zone .scroller .row .item img {
+					display: block;
+					max-height: 100%;
+					max-width: 100%;
+				}
+
+.selection {
+	position: absolute;
+	pointer-events: none;
+	opacity: 0;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+.mobile .selection {
+	cursor: pointer;
+}
+	.selection.selection-bg {
+		z-index: 0;
+	}
+	.selection.selection-border {
+		border-width: 5px;
+		border-style: solid;
+		z-index: 2;
+	}
+/************ hot zones and selection ************/
+				
+#overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-image: url("../artwork/overlay.50.png");
+	-webkit-background-composite: copy;
+	z-index: 20;
+}
+
+
+/*
+ * System popup
+ */
+#notification {
+	position: absolute;
+	min-width: 400px;
+	max-width: 600px;
+	left: 50%;
+	top: 50%;
+	background-color: #1b1c1e;
+	box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 1);
+	border-radius: 0px;
+	z-index: 21;
+}
+	.notification-message {
+		font-size: 24px;
+		text-align: center;
+		padding: 40px 40px 40px 40px;
+		margin: 0px;
+		white-space: normal;
+		max-width: 640px;
+	}
+		.notification-message p {
+			margin: 0px 0px 10px 0px;
+		}
+	.notification-divider {
+		height: 1px;
+		background-color: #333538;
+	}
+
+	.notification-zone-input {
+		height: 45px;
+		margin: 40px auto;
+	}
+		.notification-zone-input input.item {
+			padding: 5px 10px;
+			box-sizing: content-box;
+			border: none;
+			background-color: #ffffff;
+		}
+
+	.notification-zone-buttons {
+		height: 60px;
+	}
+		.notification-zone-buttons .item {
+			padding: 0px 40px;
+			line-height: 60px;
+			box-sizing: content-box;
+			text-align: center;
+		}
+		.notification-zone-buttons .item.active {
+			color: #ffffff;
+		}
+		
+#message {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	opacity: 0;
+	padding: 20px 40px;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #ffffff;
+	text-align: center;
+	border-radius: 2px;
+	z-index: 21;
+}
+	#message .ico, #message span.circle {
+		margin-right: 10px;
+		vertical-align: middle;
+		display: inline-block;
+	}
+
+.text-left {
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+
+.row-fluid {
+	white-space: nowrap;
+	
+}
+	.row-fluid div[class*="span"] {
+		display: inline-block;
+		vertical-align: top;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+	.row-fluid .span1 {
+		width: 8.3333%;
+	}
+	.row-fluid .span2 {
+		width: 16.6666%;
+	}
+	.row-fluid .span3 {
+		width: 25%;
+	}
+	.row-fluid .span4 {
+		width: 33.3333%;
+	}
+	.row-fluid .span5 {
+		width: 41.6665%;
+	}
+	.row-fluid .span6 {
+		width: 50.0000%;
+	}
+	.row-fluid .span7 {
+		width: 58.3333%;
+	}
+	.row-fluid .span8 {
+		width: 66.6664%;
+	}
+	.row-fluid .span9 {
+		width: 74.9997%;
+	}
+	.row-fluid .span10 {
+		width: 83.3333%;
+	}
+	.row-fluid .span11 {
+		width: 91.6663%;
+	}
+	.row-fluid .span12 {
+		width: 100%;
+	}
+	
+
+
+#keyboard {
+	position: absolute;
+	width: 790px;
+	height: 418px;
+	top: 50%;
+	left: 50%;
+	padding: 10px;
+	margin: -209px 0px 0px -395px;
+	z-index: 21;
+	box-sizing: border-box;
+	background-color: #333333;
+}
+	#keyboard .input {
+		background-color: rgba(0, 0, 0, 0.5);
+		line-height: 77px;
+		height: 77px;
+		margin-bottom: 10px;
+		padding: 0px 20px;
+	}
+	#keyboard .key-holder {		
+		white-space: normal;
+	}
+		#keyboard .key {
+			background-color: rgba(0, 0, 0, 0.25);
+			width: 75px;
+			line-height: 77px;
+			height: 77px;
+			display: inline-block;
+			text-align: center;
+			margin: 0px 2px 2px 0px;
+			vertical-align: top;
+		}
+		#keyboard .key:nth-child(10n) {
+			margin-right: 0px;
+		}
+		#keyboard .key[data-key="123"], #keyboard .key[data-key="Go"] {
+			width: 152px;
+		}
+		#keyboard .key[data-key="Space"] {
+			width: 306px;
+		}
+		
+		#keyboard.digits {
+			width: 251px;
+			left: 75%;
+			margin-left: -125px;
+		}
+		#keyboard.digits .key[data-key="Go"] {
+			width: 75px;
+		}
+
+.hide {
+	display: none;
+}
+
+.empty {
+	color: #a0a0a0;
+	text-align: center;
+	white-space: normal;
+}
+
+* {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-ms-overflow-style: none;
+}
+input {
+	-webkit-user-select: initial;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3 {
+	font-size: 26px;
+	font-weight: normal;
+	margin: 20px 0px;
+}
+h2 {
+	font-size: 20px;
+	margin: 0px 0px 20px 0px;
+}
+h3 {
+	font-size: 18px;
+}
+
+input, button {
+	font-family: Arial;
+	font-size: 20px;
+}
+
+::-webkit-input-placeholder { color: #a0a0a0; }
+::-moz-placeholder { color: #a0a0a0; opacity:  1; }
+::-webkit-scrollbar { display: none; }
+
+.btn:focus, .btn:active, .item:focus, .item:active {
+	outline: none;
+}
+
+#DuneHD { visibility: hidden; width: 1px; height: 1px; }
+#THD504 { visibility: hidden; width: 1px; height: 1px; }
+
+#log {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-background-composite: copy;
+	z-index: 20;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'monospace', 'courier', 'courier new', 'arial';
+	padding: 10px;
+	overflow-y: auto;
+	white-space: normal;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IPTV Login</title>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/animation.css" />
+       <!-- <link rel="stylesheet" type="text/css" href="css/icons.css" />-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400">
+	</head>
+	<body style="background-color: #000000; font-family: Roboto;">		
+		<div class="main">
+
+			<div class="language panel">
+				<div class="left full">
+					<div class="language-button" data-nav="false"></div>
+				</div>
+			</div>
+
+			<div class="login panel">
+				<div class="left">
+					<div class="login-input" data-nav="false"></div>
+					<div class="login-button" data-nav="false"></div>
+				</div>
+				<div class="divider"></div>
+				<div class="right">
+					<div class="logo"><img /></div>
+					<div class="text"></div>
+					<div class="qr"></div>
+				</div>
+			</div>
+
+			<div class="service panel">
+				<div class="left">
+					<div class="service-input" data-nav="false"></div>
+					<div class="service-button" data-nav="false"></div>
+				</div>
+				<div class="divider"></div>
+				<div class="right">
+					<div class="logo"><img /></div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+			<div class="choose panel">
+				<div class="left">
+					<p data-token="<br />Already have an account?"></p>
+					<div class="choose-login" data-nav="false"></div>
+				</div>
+				<div class="divider"></div>
+				<div class="right">
+					<p data-token="Try our services for free,<br />sign up here for a trial account now!"></p>
+					<div class="choose-register" data-nav="false"></div>
+				</div>
+			</div>
+
+			<div class="register panel">
+				<div class="left full">
+					<div class="register-input" data-nav="false"></div>
+					<div class="register-button" data-nav="false"></div>
+				</div>
+			</div>
+			
+			<div class="forgot panel">
+				<div class="left full">
+					<div class="forgot-input" data-nav="false"></div>
+					<div class="forgot-button" data-nav="false"></div>
+				</div>
+			</div>
+
+		</div>
+	
+		<div class="preloader">
+			<div class="spinner-holder">
+				<span class="text">Loading</span>
+				<div class="loader"><span></span></div>
+			</div>
+		</div>
+
+		<div id="platform"></div>
+		<div id="domain"></div>
+		<div id="log"></div>
+
+		<object id="DuneHD" type="application/x-dune-stb-api"></object>
+		<embed id="THD504" name="mediaPlayer" type="application/mozilla-npsample-scriptable-plugin" />
+
+		<script src="js/thirdparty/jquery.min.js"></script>
+		<script src="js/thirdparty/qr.code.js"></script>
+		<script src="js/GWare.loader.js"></script>
+	</body>
+</html>

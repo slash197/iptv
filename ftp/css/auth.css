@@ -1,0 +1,161 @@
+.web-container {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+input, .btn {
+	box-sizing: content-box;
+	padding: 5px 10px;
+	margin: 0px 10px 0px 0px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	cursor: default;
+	line-height: 35px;
+	color: #ffffff;
+}
+.btn {
+	padding: 5px 20px;
+	border: none;
+	text-align: center;
+}
+input.active {color: #ffffff;}
+.btn.active {color: #ffffff;}
+
+.hot-zone[data-type="horizontal"] .scroller .row .item.btn {
+	height: calc(100% - 10px);
+}
+.hot-zone[data-type="vertical"] .scroller .row .item.btn {
+	height: 35px;
+	width: calc(100% - 40px);
+}
+.stb .hot-zone[data-type="horizontal"] .scroller .row .item.btn {
+	height: 35px;
+}
+.stb .hot-zone[data-type="vertical"] .scroller .row .item.btn {
+	height: 35px;
+	width: 260px;
+}
+
+.panel {
+	display: none;
+	text-align: center;
+	box-sizing: content-box;
+	max-height: 100%;
+}
+	.panel .left,
+	.panel .right {
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0px 40px;
+		width: calc(50% - 80px);
+	}
+	.panel .left.full {
+		width: calc(100% - 80px);
+	}
+	.stb .panel .left,
+	.stb .panel .right {
+		width: 560px;
+	}
+	.tv .panel .left,
+	.tv .panel .right {
+		padding: 0px 20px;
+		width: calc(50% - 40px);
+	}
+	
+	.panel p {
+		margin: 0px 0px 20px 0px;
+		line-height: 30px;
+	}
+	.panel .divider {
+		display: inline-block;
+		vertical-align: middle;
+		width: 1px;
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+
+.login {
+}
+	.login .right .logo {
+		margin-bottom: 20px;
+	}
+		.login .right .logo img {
+			max-height: 100px;
+		}
+	.login .right .text {
+		font-size: 18px;
+		text-decoration: none;
+		cursor: default;
+		white-space: normal;
+	}
+	.login .right .qr {
+		width: 128px;
+		height: 128px;
+		margin: 40px auto 0px auto;
+	}
+	
+	.login-input {
+		height: 140px;
+	}
+	.login-button {
+		height: 45px;
+	}
+.service {
+}
+	.service .right .logo {
+		margin-bottom: 20px;
+	}
+	.service .right .text {
+		font-size: 18px;
+		text-decoration: none;
+		cursor: default;
+		white-space: normal;
+	}
+	
+	.service-input {
+		height: 140px;
+	}
+	.service-button {
+		height: 45px;
+	}
+
+.choose {
+}
+	.choose-register,
+	.choose-login {
+		height: 46px;
+	}
+	
+.register {
+}
+	.register-input {
+		height: 184px;
+	}
+		.register-input.hot-zone .scroller .row .item:first-child {
+			margin-right: 40px;
+		}
+	.register-button {
+		height: 45px;
+		margin: 40px auto 0px auto;
+	}
+	
+.forgot {
+}
+	.forgot-input {
+		height: 200px;
+	}
+	.forgot-option {
+		height: 45px;
+	}
+	.forgot-button {
+		height: 45px;
+	}
+	
+.language {
+}
+	.language-button {
+		height: 225px;
+		width: 300px;
+		margin: 0px auto;
+	}
